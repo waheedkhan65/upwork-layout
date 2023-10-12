@@ -103,9 +103,12 @@ button:hover {
     text-align: start;
     margin-bottom: 0px;
     color: #14A800;
+    p {
+        font-family: sans-serif;
+        }
 }
 .paragraphe-of-divition1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Tahoma,s  Verdana, sans-serif;
     font-size: 22px;
     line-height: 32px;
     vertical-align: baseline;
