@@ -1,0 +1,162 @@
+header{
+    display: flex;
+    flex-direction: column;
+hr {
+    color: red;
+    padding: 1rem;
+}
+
+}
+.Page-top{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 0.2;
+}
+.main-logo{
+    height: 50px;
+}
+.barIcon {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.7;
+}
+.Search_login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0.2;
+    margin-right: 20px;
+}
+.search-bar {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 16px;
+}
+.login-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 2rem;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: baseline;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: #4CAF50;
+    
+}
+button:hover {
+    background-color: #14A800;
+}
+.Departemental-details {
+    align-items: baseline;
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
+.Divition1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    margin-bottom: 0px;
+
+}
+.image-of-divition1 {
+    height: 450px;
+}
+.leftside-of-divition1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.heading-of-divition1 {
+    font-family: cursive;
+    font-size: 80px;
+    vertical-align: baseline;
+    letter-spacing: -2px;
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 0px;
+    color: #14A800;
+}
+.paragraphe-of-divition1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    vertical-align: baseline;
+    letter-spacing: 0.24px;
+    font-weight: 500;
+    text-align: start;
+    margin-top: 0px;
+}
+.Companies-logos {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+.logos-portion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tructed-tag {
+    margin-top: 0px;
+}
+#input {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 48%;
+    border-radius: 60px;
+    width: 334px;
+    height: 40px;
+    /* margin-right: 10%; */
+    /* float: right; */
+    border: 1px solid #bfc9bd;
+}
+#search {
+    padding-left: 30px;
+    height: 32px;
+    width: 230px;
+    border-radius: 60px;
+}
+.logos {
+    height: 35px;
+}
+.paragrape-of-companies-logos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: baseline;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    text-align: start;
+    margin-top: 0px;
+    color:
+    RGB(154, 170, 151)
+}
